@@ -44,7 +44,7 @@ export default function Home() {
   }
 
   return (
-    <main className="w-full h-screen flex items-center justify-center bg-gray-200">
+    <main className="w-full h-screen flex items-center justify-center bg-red-50">
       <div className="relative flex flex-col text-center items-center justify-center h-[444px] px-12 rounded-md border border-gray-300">
         <img src="./images/logo.png" alt="" className="-translate-y-6 w-16 h-16 rounded-full" />
         <div>
@@ -52,7 +52,7 @@ export default function Home() {
           <p>Estamos procurando o melhor grupo para você</p>
         </div>
         <div className="relative flex justify-center items-center rounded-md w-full h-6 mt-4 bg-gray-100 overflow-hidden">
-          <div className={`absolute left-0 h-full bg-emerald-400`} style={barStyle}></div>
+          <div className={`absolute left-0 h-full bg-[#df9ca0]`} style={barStyle}></div>
           {barStyle.width === '100%' && (
             <svg viewBox="25 25 50 50" className="z-10 absolute">
               <circle r="20" cy="50" cx="50"></circle>
